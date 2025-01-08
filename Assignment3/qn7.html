@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Time Slot</th>
+            <th>Room A</th>
+            <th>Room B</th>
+            <th>Room C</th>
+        </tr>
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td title="Keynote Speech on AI">Keynote Speech</td>
+            <td title="Workshop on Web Security">Workshop</td>
+            <td title=" Panel on Future Tech Trends">Panel Discussion</td>
+        </tr>
+
+        
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td title="SContinuation of Keynote Speech">Keynote Speech</td>
+            <td rowspan="2" title=" 2-hour Workshop on Web Security">Workshop (2 hrs)</td>
+            <td title="Q&A Session on Tech Trends">Q&A Session</td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td title="SSession on Cybersecurity Basics">Cybersecurity</td>
+            <td title="Talk on Future AI Tools">AI Tools</td>
+        </tr>
+
+        <!-- Time Slot 4 (Combined Session using colspan) -->
+        <tr>
+            <td>12:00 - 01:00</td>
+            <td colspan="3" title=" Panel on Ethics in AI">Combined Panel: Ethics in AI</td>
+        </tr>
+
+        <!-- Time Slot 5 -->
+        <tr>
+            <td>01:00 - 02:00</td>
+            <td title="Cloud Computing Basics">Cloud Computing</td>
+            <td title=" Workshop on Ethical Hacking">Ethical Hacking</td>
+            <td title=" Blockchain Explained">Blockchain Basics</td>
+        </tr>
+    </table>
+
+    <!-- Legend Section -->
+    <h2>Legend</h2>
+    <ul>
+        <li><b>Keynote Speech:</b> Major presentations from industry leaders.</li>
+        <li><b>Workshop:</b> Hands-on sessions for skill development.</li>
+        <li><b>Panel Discussion:</b> Expert panel talks on industry trends.</li>
+        <li><b>Q&A Session:</b> Interactive question and answer rounds.</li>
+    </ul>
+</body>
+</html>
